@@ -161,7 +161,7 @@ public class CreateOrgTest extends BaseClass {
 		System.out.println("hi");
 		UtilityClassObject.getTest().log(Status.INFO, "verify the details");
 		String actphone = oi.getPhoneText().getText().trim();
-		System.out.println(" close git ");
+		System.out.println(" close git ..........................");
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(actphone, phone);
 		sa.assertAll();
