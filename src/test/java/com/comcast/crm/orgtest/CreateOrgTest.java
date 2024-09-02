@@ -157,7 +157,7 @@ public class CreateOrgTest extends BaseClass {
 		String result = oi.getHeaderInfoText().getText();
 		boolean status = result.contains(organizationName);
 		Assert.assertTrue(status);
-		
+		System.out.println("hi");
 		UtilityClassObject.getTest().log(Status.INFO, "verify the details");
 		String actphone = oi.getPhoneText().getText().trim();
 		SoftAssert sa = new SoftAssert();
