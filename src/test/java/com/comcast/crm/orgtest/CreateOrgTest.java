@@ -74,6 +74,8 @@ public class CreateOrgTest extends BaseClass {
 	@Test(groups = {"regressionTest"})
 	public void createOrgWithIndustry() throws Exception
 	{
+		System.out.println("Hello... welcome to Git");
+		
 		/*object creation for POM classes*/
 		HomePage h = new HomePage(driver);
 		OrganizationsPage o = new OrganizationsPage(driver);
