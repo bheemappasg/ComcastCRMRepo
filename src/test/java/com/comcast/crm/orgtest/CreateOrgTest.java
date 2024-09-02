@@ -50,7 +50,7 @@ public class CreateOrgTest extends BaseClass {
 		
 		String organizationName = elib.getDataFromExcelFile("CreateOrg", 1, 2) + jlib.getRandomNumber();
 		c.createOrg(organizationName);
-		
+		System.out.println("Hello... welcome to Git");
 
 		/* verify whether the organization has been creatred or not*/
 		UtilityClassObject.getTest().log(Status.INFO, "verify whether organization is create or not");
