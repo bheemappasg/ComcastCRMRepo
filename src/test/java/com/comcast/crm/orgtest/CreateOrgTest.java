@@ -58,6 +58,8 @@ public class CreateOrgTest extends BaseClass {
 		boolean status = result.contains(organizationName);
 		Assert.assertTrue(status);
 		
+		System.out.println("org verified");
+		
 		UtilityClassObject.getTest().log(Status.INFO, "verify the details");
 		String actOrgName = oi.getOrgNameText().getText().trim();
 		SoftAssert sa = new SoftAssert();
