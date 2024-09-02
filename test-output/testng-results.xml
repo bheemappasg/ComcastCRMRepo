@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ Report config ]]>
+    </line>
+    <line>
+      <![CDATA[=== Connect to DB and Report Config ===]]>
+    </line>
+    <line>
+      <![CDATA[=== Open Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[= login =]]>
+    </line>
+    <line>
+      <![CDATA[= logout =]]>
+    </line>
+    <line>
+      <![CDATA[= login =]]>
+    </line>
+    <line>
+      <![CDATA[= logout =]]>
+    </line>
+    <line>
+      <![CDATA[= login =]]>
+    </line>
+    <line>
+      <![CDATA[= logout =]]>
+    </line>
+    <line>
+      <![CDATA[=== Close Browser ===]]>
+    </line>
+    <line>
+      <![CDATA[=== Close DB Connection and Report BackUp ===]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-02T13:29:14 IST" name="Default suite" finished-at="2024-09-02T13:30:38 IST" duration-ms="84211">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrgTest.createOrgWithIndustry()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" name="createOrgWithIndustry" class="com.comcast.crm.orgtest.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithOrgName()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" name="createOrgWithOrgName" class="com.comcast.crm.orgtest.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithPhone()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" name="createOrgWithPhone" class="com.comcast.crm.orgtest.CreateOrgTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrgTest.createOrgWithOrgName()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" name="createOrgWithOrgName" class="com.comcast.crm.orgtest.CreateOrgTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-09-02T13:29:14 IST" name="Default test" finished-at="2024-09-02T13:30:38 IST" duration-ms="84211">
+      <class name="com.comcast.crm.orgtest.CreateOrgTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:29:14 IST" name="beforeSuite" finished-at="2024-09-02T13:29:14 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Connect to DB and Report Config ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:29:14 IST" name="beforeClass" finished-at="2024-09-02T13:29:22 IST" duration-ms="8799" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Open Browser ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:29:23 IST" name="beforeMethod" finished-at="2024-09-02T13:29:31 IST" duration-ms="8886" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[= login =]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgWithIndustry()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:29:31 IST" name="createOrgWithIndustry" finished-at="2024-09-02T13:30:03 IST" duration-ms="31875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:03 IST" name="afterMethod" finished-at="2024-09-02T13:30:05 IST" duration-ms="2059" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[= logout =]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:05 IST" name="beforeMethod" finished-at="2024-09-02T13:30:08 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[= login =]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgWithOrgName()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:08 IST" name="createOrgWithOrgName" finished-at="2024-09-02T13:30:19 IST" duration-ms="11376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithOrgName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:19 IST" name="afterMethod" finished-at="2024-09-02T13:30:21 IST" duration-ms="1556" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[= logout =]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:21 IST" name="beforeMethod" finished-at="2024-09-02T13:30:24 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[= login =]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgWithPhone()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:24 IST" name="createOrgWithPhone" finished-at="2024-09-02T13:30:36 IST" duration-ms="11976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhone -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:36 IST" name="afterMethod" finished-at="2024-09-02T13:30:37 IST" duration-ms="1679" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[= logout =]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:37 IST" name="afterClass" finished-at="2024-09-02T13:30:38 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Close Browser ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.comcast.crm.orgtest.CreateOrgTest@1530c739]" started-at="2024-09-02T13:30:38 IST" name="afterSuite" finished-at="2024-09-02T13:30:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Close DB Connection and Report BackUp ===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
