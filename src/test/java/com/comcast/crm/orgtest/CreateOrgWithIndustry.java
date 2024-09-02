@@ -43,6 +43,8 @@ public class CreateOrgWithIndustry {
 		JavaUtility jlib = new JavaUtility();
 		WebDriverUtility wlib = new WebDriverUtility();
 		
+		System.out.println("hi");
+		
 		String browser = flib.getDataFromPropertiesFile("browser");
 		String url = flib.getDataFromPropertiesFile("url");
 		String username = flib.getDataFromPropertiesFile("username");
