@@ -45,6 +45,7 @@ public class createOrgWithOrgNameTest {
 		ExcelUtility elib = new ExcelUtility();
 		JavaUtility jlib = new JavaUtility();
 		WebDriverUtility wlib = new WebDriverUtility();
+		System.out.println("hi");
 		
 		String browser = flib.getDataFromPropertiesFile("browser");
 		String url = flib.getDataFromPropertiesFile("url");
