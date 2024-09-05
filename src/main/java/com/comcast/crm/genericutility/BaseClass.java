@@ -8,7 +8,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
 import com.comcast.crm.generic.databaseutility.DatabaseUtility;
 import com.comcast.crm.generic.fileutility.ExcelUtility;
@@ -45,8 +44,8 @@ public class BaseClass {
 	{
 		Reporter.log("=== Open Browser ===",true);
 		
-		String browser = flib.getDataFromPropertiesFile("browser");
-		String url = flib.getDataFromPropertiesFile("url");
+		String browser = System.getProperty("browser", flib.getDataFromPropertiesFile("browser"));
+		String url = System.getProperty("url", flib.getDataFromPropertiesFile("url"));		
 		
 		driver = wlib.getBrowser(driver, browser);
 		sdriver = driver;
@@ -64,8 +63,8 @@ public class BaseClass {
 	{
 		Reporter.log("= login =",true);
 		
-		String username = flib.getDataFromPropertiesFile("username");
-		String password = flib.getDataFromPropertiesFile("password");
+		String username = System.getProperty("username", flib.getDataFromPropertiesFile("username"));
+		String password = System.getProperty("password", flib.getDataFromPropertiesFile("password"));
 		
 		LoginPage l = new LoginPage(driver);
 		l.setLogin(username, password);
