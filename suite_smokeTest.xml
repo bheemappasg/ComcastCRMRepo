@@ -9,7 +9,7 @@
   <test thread-count="5" name="Test">
     <classes>
 	  <class name="com.comcast.crm.orgtest.CreateOrgTest"/>
-     <!-- <class name="com.comcast.crm.contacttest.CreateContactTest"/>-->
+     <class name="com.comcast.crm.contacttest.CreateContactTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
