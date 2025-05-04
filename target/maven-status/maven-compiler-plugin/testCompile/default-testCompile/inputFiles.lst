@@ -1,6 +1,8 @@
-C:\Users\Admin\eclipse-workspace\ComcastCRMGUIFramework\src\test\java\com\comcast\crm\contacttest\CreateContactWithOrganization.java
-C:\Users\Admin\eclipse-workspace\ComcastCRMGUIFramework\src\test\java\com\comcast\crm\contacttest\CreateContactWithName.java
-C:\Users\Admin\eclipse-workspace\ComcastCRMGUIFramework\src\test\java\com\comcast\crm\orgtest\CreateOrgWithIndustry.java
-C:\Users\Admin\eclipse-workspace\ComcastCRMGUIFramework\src\test\java\com\comcast\crm\orgtest\CreateOrgWithPhone.java
-C:\Users\Admin\eclipse-workspace\ComcastCRMGUIFramework\src\test\java\com\comcast\crm\contacttest\CreateContactWithDate.java
-C:\Users\Admin\eclipse-workspace\ComcastCRMGUIFramework\src\test\java\com\comcast\crm\orgtest\createOrgWithOrgNameTest.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\contacttest\CreateContactTest.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\contacttest\CreateContactWithDate.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\contacttest\CreateContactWithName.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\contacttest\CreateContactWithOrganization.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\orgtest\CreateOrgTest.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\orgtest\CreateOrgWithIndustry.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\orgtest\createOrgWithOrgNameTest.java
+C:\Users\Admin\git\ComcastCRMRepo\src\test\java\com\comcast\crm\orgtest\CreateOrgWithPhone.java
